@@ -21,7 +21,7 @@ Beyond academic publications, I have co-invented several **national patents** in
 I am passionate about building efficient AI systems. I am open to research collaborations.
 
 
-My [English CV](https://ifreasonable.github.io/files/英文简历.pdf) and [Chinese resume](https://ifreasonable.github.io/files/中文简历.pdf) are available here.
+My [English resume](https://ifreasonable.github.io/files/英文简历.pdf) and [Chinese resume](https://ifreasonable.github.io/files/中文简历.pdf) are available here.
 
 
 
