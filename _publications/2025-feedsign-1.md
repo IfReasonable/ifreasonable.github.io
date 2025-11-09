@@ -9,6 +9,6 @@ venue: 'under review'
 # paperurl: 'https://arxiv.org/abs/2501.17610'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-Zhijie Cai*, **Haolong Chen***, Guangxu Zhu
+Zhijie Cai\*, **Haolong Chen**\*, Guangxu Zhu
 
 [Download](https://arxiv.org/abs/2501.17610)
