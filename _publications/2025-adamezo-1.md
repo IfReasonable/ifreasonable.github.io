@@ -1,7 +1,7 @@
 ---
 title: "AdaMeZO: Adam-Styled Zeroth-Order Optimizer for LLM Fine-tuning Without Memorizing the Moments"
 collection: publications
-category: manuscripts
+category: Conference
 permalink: /publication/2025-adamezo-1
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-10-1
