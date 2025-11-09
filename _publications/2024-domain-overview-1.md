@@ -1,7 +1,7 @@
 ---
 title: "An overview of domain-specific foundation model: key technologies, applications and challenges"
 collection: publications
-category: Journal
+category: journals
 permalink: /publication/2024-domain-overview-1
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-09-15
