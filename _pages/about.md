@@ -10,7 +10,7 @@ redirect_from:
 
 ## About Me
 
-I am now pursuing my **Ph.D. in Computer and Information Engineering** at [The Chinese University of Hong Kong, Shenzhen (CUHK-SZ)](https://www.cuhk.edu.cn/zh-hans) and [Shenzhen Research Institute of Big Data (SRIBD)](https://www.sribd.cn/), under the supervision of [Prof. Guangxu Zhu](https://sites.google.com/view/guangxuzhu/home) and [Prof. Tsung-Hui Chang](https://myweb.cuhk.edu.cn/changtsunghui). I previously obtained my **B.Eng. in Software Engineering** from [Jinan University (JNU)](https://www.jnu.edu.cn/) in 2023, under the supervision of [Prof. Guanghua Yang](https://sisse.jnu.edu.cn/2019/0606/c12456a323953/page.htm) and [Prof. Xinyuan Zhang](https://sisse.jnu.edu.cn/2019/0912/c12456a416577/page.htm).
+I am now pursuing my **Ph.D. in Computer and Information Engineering** at [The Chinese University of Hong Kong, Shenzhen (CUHK-SZ)](https://www.cuhk.edu.cn/zh-hans) and [Shenzhen Research Institute of Big Data (SRIBD)](https://www.sribd.cn/), under the supervision of [Prof. Guangxu Zhu](https://sites.google.com/view/guangxuzhu/home) and [Prof. Tsung-Hui Chang](https://myweb.cuhk.edu.cn/changtsunghui). I previously obtained my **B.Eng. in Software Engineering** from [Jinan University (JNU)](https://www.jnu.edu.cn/) in 2023.
 
 My research lies at the intersection of **large language models**, **time series analysis**, and **spatio-temporal data mining**, with a special focus on efficient reasoning, training, and deployment of LLMs in edge intelligence systems. I have experience contributing to high-impact research projects supported by major national and industrial programs, and my work spans LLM inference/routing, multi-agent collaboration, spatio-temporal forecasting, and communication KPI modeling.
 
