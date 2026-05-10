@@ -10,21 +10,21 @@ redirect_from:
 
 ## About Me
 
-I am now pursuing my **Ph.D. in Computer and Information Engineering** at [The Chinese University of Hong Kong, Shenzhen (CUHK-SZ)](https://www.cuhk.edu.cn/zh-hans) and [Shenzhen Research Institute of Big Data (SRIBD)](https://www.sribd.cn/), under the supervision of [Prof. Guangxu Zhu](https://sites.google.com/view/guangxuzhu/home) and [Prof. Tsung-Hui Chang](https://myweb.cuhk.edu.cn/changtsunghui). I previously obtained my **B.Eng. in Software Engineering** from [Jinan University (JNU)](https://www.jnu.edu.cn/) in 2023.
+I am currently pursuing my **Ph.D. in Computer and Information Engineering** at The Chinese University of Hong Kong, Shenzhen and the Shenzhen Research Institute of Big Data under the supervision of [Prof. Guangxu Zhu](https://sites.google.com/view/guangxuzhu/home) and [Prof. Tsung-Hui Chang](https://myweb.cuhk.edu.cn/changtsunghui). I received my **B.Eng. in Software Engineering** from Jinan University in 2023.
 
-My research lies at the intersection of **large language models**, **time series analysis**, and **spatio-temporal data mining**, with a special focus on efficient reasoning, training, and deployment of LLMs in edge intelligence systems. I have experience contributing to high-impact research projects supported by major national and industrial programs, and my work spans LLM inference/routing, multi-agent collaboration, spatio-temporal forecasting, and communication KPI modeling.
+My research lies at the intersection of **large language models**, **time series analysis**, and **AI for telecommunications**, with a particular focus on efficient reasoning, training, and deployment of LLMs in edge intelligence systems. My research experience spans LLM inference and routing, multi-agent collaboration, spatio-temporal forecasting, and communication KPI modeling.
 
-<!-- I have authored multiple publications in reputable venues, including **SCIS (CCF A)**, and submitted works to **KDD**, **NeurIPS**, and **IEEE TMC**, among others. Some of my contributions have been adopted as practical baselines in open-source communities. I also serve as a reviewer for leading international conferences such as **NeurIPS**, **ICC**, **GLOBECOM**, **ICASSP**, and **WCNC**, demonstrating my active involvement in the research community.
-
-Beyond academic publications, I have co-invented several **national patents** in the domains of wireless communication, spatio-temporal modeling, and efficient LLM training. I have also contributed to software monographs officially registered in China. -->
-
-I am passionate about building efficient AI systems. I am open to research collaborations.
-
-
-My [English resume](https://ifreasonable.github.io/files/英文简历.pdf) and [Chinese resume](https://ifreasonable.github.io/files/中文简历.pdf) are available here.
+I am passionate about building efficient and reliable AI systems, and I am always open to research collaborations.
 
 
 
+## News
+
+- [May 2026] Our paper "AdaMeZO: Adam-style Zeroth-Order Optimizer for LLM Fine-tuning Without Maintaining the Moments" has been accepted by **ICML 2026**.
+- [April 2026] Our paper "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Order Optimization" is now available on [arXiv](https://arxiv.org/abs/2604.12401).
+- [Mar. 2026] Our paper "FeedSign: Robust Full-parameter Federated Fine-tuning of Large Models with Extremely Low Communication Overhead of One Bit" has been accepted by **TMC**.
+- [Nov. 2025] Our paper "DK-Root: A Joint Data-and-Knowledge-Driven Framework for Root Cause Analysis of QoE Degradations in Mobile Networks" is now available on [arXiv](https://arxiv.org/abs/2511.11737).
+- [Jun. 2025] Our paper "An overview of domain-specific foundation model: key technologies, applications and challenges", has been accepted by **SCIS**.
 
 
 
