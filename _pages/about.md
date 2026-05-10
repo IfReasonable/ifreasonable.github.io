@@ -24,6 +24,7 @@ I am passionate about building efficient and reliable AI systems, and I am alway
 - [April 2026] Our paper "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Order Optimization" is now available on [arXiv](https://arxiv.org/abs/2604.12401).
 - [Mar. 2026] Our paper "FeedSign: Robust Full-parameter Federated Fine-tuning of Large Models with Extremely Low Communication Overhead of One Bit" has been accepted by **TMC**.
 - [Nov. 2025] Our paper "DK-Root: A Joint Data-and-Knowledge-Driven Framework for Root Cause Analysis of QoE Degradations in Mobile Networks" is now available on [arXiv](https://arxiv.org/abs/2511.11737).
+- [Aug. 2025] Our paper "STM3: Mixture of Multiscale Mamba for Long-Term Spatio-Temporal Time-Series Prediction" is now available on [arXiv](https://arxiv.org/abs/2508.12247).
 - [Jun. 2025] Our paper "An overview of domain-specific foundation model: key technologies, applications and challenges", has been accepted by **SCIS**.
 
 
