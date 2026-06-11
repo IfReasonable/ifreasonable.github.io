@@ -20,6 +20,7 @@ I am passionate about building efficient and reliable AI systems, and I am alway
 
 ## News
 
+- [June 2026] Our paper "QoEReasoner: An Agentic Reasoning Framework for Automated and Explainable QoE Diagnosis in RANs" is now available on [arXiv](https://arxiv.org/pdf/2606.01925).
 - [May 2026] Our paper "STM3: Mixture of Multiscale Mamba for Long-Term Spatio-Temporal Time-Series Prediction" has been accepted by **SIGKDD 2026**.
 - [May 2026] Our paper "AdaMeZO: Adam-style Zeroth-Order Optimizer for LLM Fine-tuning Without Maintaining the Moments" has been accepted by **ICML 2026**.
 - [April 2026] Our paper "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Order Optimization" is now available on [arXiv](https://arxiv.org/abs/2604.12401).
