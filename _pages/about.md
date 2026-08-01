@@ -10,12 +10,11 @@ redirect_from:
 
 ## About Me
 
-I am currently pursuing my **Ph.D. in Computer and Information Engineering** at The Chinese University of Hong Kong, Shenzhen and the Shenzhen Research Institute of Big Data under the supervision of [Prof. Guangxu Zhu](https://sites.google.com/view/guangxuzhu/home) and [Prof. Tsung-Hui Chang](https://myweb.cuhk.edu.cn/changtsunghui). I received my **B.Eng. in Software Engineering** from Jinan University in 2023.
+I am currently pursuing my **Ph.D. in Computer and Information Engineering** at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen) under the supervision of [Prof. Guangxu Zhu](https://sites.google.com/view/guangxuzhu/home) and [Prof. Tsung-Hui Chang](https://myweb.cuhk.edu.cn/changtsunghui). I received my **B.Eng. in Software Engineering** from Jinan University in 2023.
 
-My research lies at the intersection of **large language models**, **time series analysis**, and **AI for telecommunications**, with a particular focus on efficient reasoning, training, and deployment of LLMs in edge intelligence systems. My research experience spans LLM inference and routing, multi-agent collaboration, spatio-temporal forecasting, and communication KPI modeling.
+My research lies at the intersection of **LLM agents** and **domain-specific intelligence**, with a particular focus on **self-evolving agents, agent memory systems, and efficient training methods**. I have published 5 papers in CCF-A-ranked conferences and journals.
 
-I am passionate about building efficient and reliable AI systems, and I am always open to research collaborations.
-
+I am passionate about developing LLM agents that can continuously evolve while remaining efficient and reliable. I am always open to research collaborations and discussions.
 
 
 ## News
