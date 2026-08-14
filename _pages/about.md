@@ -19,13 +19,13 @@ I am passionate about developing LLM agents that can continuously evolve while r
 
 ## News
 
-- [June 2026] Our paper "ERSkill: Evolving for Skill-Guided Adaptive Memory Retrieval" is now available on [arXiv](https://arxiv.org/abs/2608.12720).
-- [June 2026] Our paper "Error-Aware Reverse Auction Mechanism for Large Language Model Routing" is now available on [arXiv](https://arxiv.org/abs/2608.12719).
-- [June 2026] ✅ Our paper "DK-Root: A Joint Data-and-Knowledge-Driven Framework for Root Cause Analysis of QoE Degradations in Mobile Networks" has been accepted by **IEEE Transactions on Networking**!
-- [June 2026] Our paper "QoEReasoner: An Agentic Reasoning Framework for Automated and Explainable QoE Diagnosis in RANs" is now available on [arXiv](https://arxiv.org/abs/2606.01925).
-- [May 2026] ✅ Our paper "STM3: Mixture of Multiscale Mamba for Long-Term Spatio-Temporal Time-Series Prediction" has been accepted by **SIGKDD 2026**!
-- [May 2026] ✅ Our paper "AdaMeZO: Adam-style Zeroth-Order Optimizer for LLM Fine-tuning Without Maintaining the Moments" has been accepted by **ICML 2026**!
-- [April 2026] Our paper "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Order Optimization" is now available on [arXiv](https://arxiv.org/abs/2604.12401).
+- [Aug. 2026] Our paper "ERSkill: Evolving for Skill-Guided Adaptive Memory Retrieval" is now available on [arXiv](https://arxiv.org/abs/2608.12720).
+- [Jun. 2026] Our paper "Error-Aware Reverse Auction Mechanism for Large Language Model Routing" is now available on [arXiv](https://arxiv.org/abs/2608.12719).
+- [Jun. 2026] ✅ Our paper "DK-Root: A Joint Data-and-Knowledge-Driven Framework for Root Cause Analysis of QoE Degradations in Mobile Networks" has been accepted by **IEEE Transactions on Networking**!
+- [Jun. 2026] Our paper "QoEReasoner: An Agentic Reasoning Framework for Automated and Explainable QoE Diagnosis in RANs" is now available on [arXiv](https://arxiv.org/abs/2606.01925).
+- [May. 2026] ✅ Our paper "STM3: Mixture of Multiscale Mamba for Long-Term Spatio-Temporal Time-Series Prediction" has been accepted by **SIGKDD 2026**!
+- [May. 2026] ✅ Our paper "AdaMeZO: Adam-style Zeroth-Order Optimizer for LLM Fine-tuning Without Maintaining the Moments" has been accepted by **ICML 2026**!
+- [Apr. 2026] Our paper "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Order Optimization" is now available on [arXiv](https://arxiv.org/abs/2604.12401).
 - [Mar. 2026] ✅ Our paper "FeedSign: Robust Full-parameter Federated Fine-tuning of Large Models with Extremely Low Communication Overhead of One Bit" has been accepted by **IEEE Transactions on Mobile Computing**!
 - [Jun. 2025] ✅ Our paper "An overview of domain-specific foundation model: key technologies, applications and challenges", has been accepted by **SCIENCE CHINA Information Sciences**!
 
