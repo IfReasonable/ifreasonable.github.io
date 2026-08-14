@@ -12,7 +12,7 @@ redirect_from:
 
 I am currently pursuing my **Ph.D. in Computer and Information Engineering** at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen) under the supervision of [Prof. Guangxu Zhu](https://sites.google.com/view/guangxuzhu/home) and [Prof. Tsung-Hui Chang](https://myweb.cuhk.edu.cn/changtsunghui). I received my **B.Eng. in Software Engineering** from Jinan University in 2023.
 
-My research lies at the intersection of **LLM agents** and **domain-specific intelligence**, with a particular focus on **self-evolving agents, agent memory systems, and efficient training methods**. I have published 5 papers in CCF-A-ranked conferences and journals.
+My research lies at the intersection of LLM agents and domain-specific intelligence, with a particular focus on self-evolving agents, agent memory systems, and efficient training methods. I have published **5 papers** in **CCF-A-ranked** conferences and journals.
 
 I am passionate about developing LLM agents that can continuously evolve while remaining efficient and reliable. I am always open to research collaborations and discussions.
 
