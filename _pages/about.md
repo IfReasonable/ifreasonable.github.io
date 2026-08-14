@@ -20,7 +20,7 @@ I am passionate about developing LLM agents that can continuously evolve while r
 ## News
 
 - [Aug. 2026] Our paper "ERSkill: Evolving for Skill-Guided Adaptive Memory Retrieval" is now available on [arXiv](https://arxiv.org/abs/2608.12720).
-- [Jun. 2026] Our paper "Error-Aware Reverse Auction Mechanism for Large Language Model Routing" is now available on [arXiv](https://arxiv.org/abs/2608.12719).
+- [Aug. 2026] Our paper "Error-Aware Reverse Auction Mechanism for Large Language Model Routing" is now available on [arXiv](https://arxiv.org/abs/2608.12719).
 - [Jun. 2026] ✅ Our paper "DK-Root: A Joint Data-and-Knowledge-Driven Framework for Root Cause Analysis of QoE Degradations in Mobile Networks" has been accepted by **IEEE Transactions on Networking**!
 - [Jun. 2026] Our paper "QoEReasoner: An Agentic Reasoning Framework for Automated and Explainable QoE Diagnosis in RANs" is now available on [arXiv](https://arxiv.org/abs/2606.01925).
 - [May. 2026] ✅ Our paper "STM3: Mixture of Multiscale Mamba for Long-Term Spatio-Temporal Time-Series Prediction" has been accepted by **SIGKDD 2026**!
