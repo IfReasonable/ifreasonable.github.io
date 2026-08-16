@@ -14,6 +14,8 @@ I am currently pursuing my Ph.D. in Computer and Information Engineering at The 
 
 My research lies at the intersection of LLM agents and domain-specific intelligence, with a particular focus on self-evolving agents, agent memory systems, and efficient training methods. I have published **5 papers** in **CCF-A-ranked** conferences and journals.
 
+I serve as a conference reviewer for ICASSP, WCNC, ICC, GLOBECOM, ICCC, and PIMRC, and as a journal reviewer for TMC.
+
 I am passionate about developing LLM agents that can continuously evolve while remaining efficient and reliable. I am always open to research collaborations and discussions.
 
 
