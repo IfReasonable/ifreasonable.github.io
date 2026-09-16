@@ -1,12 +1,16 @@
 ---
 title: "FeedSign: Robust Full-parameter Federated Fine-tuning of Large Models with Extremely Low Communication Overhead of One Bit"
 collection: publications
-category: journals
-permalink: /publication/2025-feedsign-1
-# excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2025-01-01
-venue: 'TMC'
-paperurl: 'https://ieeexplore.ieee.org/document/11455968'
-# citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2026-03-01
+venue: "IEEE Transactions on Mobile Computing"
+year: 2026
+authors: "Zhijie Cai*, <strong>Haolong Chen</strong>*, Guangxu Zhu, Qingjiang Shi, Kaibin Huang"
+summary:
+image:
+paperurl: "https://ieeexplore.ieee.org/document/11455968"
+arxivurl: "https://arxiv.org/abs/2501.17610"
+pdfurl:
+codeurl:
+projecturl:
+bibtexurl:
 ---
-Zhijie Cai *, **Haolong Chen** *, Guangxu Zhu, Qingjiang Shi, Kaibin Huang

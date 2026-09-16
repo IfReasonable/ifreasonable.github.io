@@ -5,7 +5,7 @@ description: "Haolong Chen is a Ph.D. student at CUHK-Shenzhen researching self-
 ---
 
 <section id="top" class="profile">
-  <img class="profile-photo" src="/images/my_avatar.png" alt="Portrait of Haolong Chen">
+  <img class="profile-photo" src="/images/my_avatar.jpg" alt="Portrait">
   <div>
     <h1>Haolong Chen</h1>
     <p class="profile-role">Ph.D. Student · LLM Agents &amp; Domain-Specific Intelligence</p>
@@ -61,160 +61,33 @@ I am always open to research collaborations and discussions.
 ## Publications
 {: .section-heading }
 
-<!--
-To add an optional figure to a publication, add class "with-image" to its
-<article> and place this line before <div class="publication-content">:
-<img class="publication-image" src="/images/publications/example.png" alt="Overview of the paper">
--->
-
-<article class="publication">
-<div class="publication-content" markdown="1">
-<p class="venue">Preprint · 2026</p>
-
-### ERSkill: Evolving for Skill-Guided Adaptive Memory Retrieval
-
-**Haolong Chen**, Liang Zhang, Zhuo Li, Lei Xue, Guangxu Zhu
-{: .authors }
-
-[arXiv](https://arxiv.org/abs/2608.12720)
-{: .publication-links }
+<!-- Publications are maintained as individual Markdown files in _publications/. -->
+{% assign publications = site.publications | sort: "date" | reverse %}
+{% for publication in publications %}
+<article class="publication{% if publication.image %} with-image{% endif %}">
+{% if publication.image %}
+<img class="publication-image" src="{{ publication.image | relative_url }}" alt="Overview of {{ publication.title | escape }}">
+{% endif %}
+<div class="publication-content">
+<p class="venue">{{ publication.venue }}{% if publication.year %} · {{ publication.year }}{% endif %}</p>
+<h3>{{ publication.title }}</h3>
+<p class="authors">{{ publication.authors }}</p>
+{% if publication.summary %}
+<p class="publication-summary">{{ publication.summary }}</p>
+{% endif %}
+{% if publication.paperurl or publication.arxivurl or publication.pdfurl or publication.codeurl or publication.projecturl or publication.bibtexurl %}
+<p class="publication-links">
+  {% if publication.paperurl %}<a href="{{ publication.paperurl }}">Paper</a>{% endif %}
+  {% if publication.arxivurl %}<a href="{{ publication.arxivurl }}">arXiv</a>{% endif %}
+  {% if publication.pdfurl %}<a href="{{ publication.pdfurl }}">PDF</a>{% endif %}
+  {% if publication.codeurl %}<a href="{{ publication.codeurl }}">Code</a>{% endif %}
+  {% if publication.projecturl %}<a href="{{ publication.projecturl }}">Project</a>{% endif %}
+  {% if publication.bibtexurl %}<a href="{{ publication.bibtexurl }}">BibTeX</a>{% endif %}
+</p>
+{% endif %}
 </div>
 </article>
-
-<article class="publication">
-<div class="publication-content" markdown="1">
-<p class="venue">Preprint · 2026</p>
-
-### Error-Aware Reverse Auction Mechanism for Large Language Model Routing
-
-**Haolong Chen**\*, Zhengyuan Xin\*, Liang Zhang, Lei Xue, Guangxu Zhu
-{: .authors }
-
-[arXiv](https://arxiv.org/abs/2608.12719)
-{: .publication-links }
-</div>
-</article>
-
-<article class="publication">
-<div class="publication-content" markdown="1">
-<p class="venue">IEEE Transactions on Networking · 2026</p>
-
-### DK-Root: A Joint Data-and-Knowledge-Driven Framework for Root Cause Analysis of QoE Degradations in Mobile Networks
-
-Qizhe Li, **Haolong Chen**, Jiansheng Li, Shuqi Chai, Xuan Li, Yuzhou Hou, Xinhua Shao, Fangfang Li, Kaifeng Han, Guangxu Zhu
-{: .authors }
-
-[arXiv](https://arxiv.org/abs/2511.11737)
-{: .publication-links }
-</div>
-</article>
-
-<article class="publication">
-<div class="publication-content" markdown="1">
-<p class="venue">Preprint · 2026</p>
-
-### QoEReasoner: An Agentic Reasoning Framework for Automated and Explainable QoE Diagnosis in RANs
-
-Qizhe Li\*, **Haolong Chen**\*, Shan Dai, Zhuo Li, Zhiwei Hu, Xuan Li, Guangxu Zhu, Qingjiang Shi
-{: .authors }
-
-[arXiv](https://arxiv.org/abs/2606.01925)
-{: .publication-links }
-</div>
-</article>
-
-<article class="publication">
-<div class="publication-content" markdown="1">
-<p class="venue">ACM SIGKDD · 2026</p>
-
-### STM3: Mixture of Multiscale Mamba for Long-Term Spatio-Temporal Time-Series Prediction
-
-**Haolong Chen**, Liang Zhang, Zhengyuan Xin, Guangxu Zhu
-{: .authors }
-
-[arXiv](https://arxiv.org/abs/2508.12247)
-{: .publication-links }
-</div>
-</article>
-
-<article class="publication">
-<div class="publication-content" markdown="1">
-<p class="venue">ICML · 2026</p>
-
-### AdaMeZO: Adam-style Zeroth-Order Optimizer for LLM Fine-tuning Without Maintaining the Moments
-
-Zhijie Cai\*, **Haolong Chen**\*, Guangxu Zhu
-{: .authors }
-
-[arXiv](https://arxiv.org/abs/2605.00650)
-{: .publication-links }
-</div>
-</article>
-
-<article class="publication">
-<div class="publication-content" markdown="1">
-<p class="venue">IEEE Transactions on Mobile Computing · 2026</p>
-
-### FeedSign: Robust Full-parameter Federated Fine-tuning of Large Models with Extremely Low Communication Overhead of One Bit
-
-Zhijie Cai\*, **Haolong Chen**\*, Guangxu Zhu, Qingjiang Shi, Kaibin Huang
-{: .authors }
-
-[arXiv](https://arxiv.org/abs/2501.17610) [IEEE Xplore](https://ieeexplore.ieee.org/document/11455968)
-{: .publication-links }
-</div>
-</article>
-
-<article class="publication">
-<div class="publication-content" markdown="1">
-<p class="venue">Preprint · 2026</p>
-
-### Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Order Optimization
-
-Zhijie Cai, Yuhao Zheng, **Haolong Chen**, Dongzhu Liu, Bin Wang, Guangxu Zhu
-{: .authors }
-
-[arXiv](https://arxiv.org/abs/2604.12401)
-{: .publication-links }
-</div>
-</article>
-
-<article class="publication">
-<div class="publication-content" markdown="1">
-<p class="venue">IEEE ICC · 2026</p>
-
-### FeedSign: Robust and Communication-Efficient Federated Fine-tuning of Large Models for Edge AI
-
-Zhijie Cai, **Haolong Chen**, Guangxu Zhu, Qingjiang Shi, Kaibin Huang
-{: .authors }
-</div>
-</article>
-
-<article class="publication">
-<div class="publication-content" markdown="1">
-<p class="venue">IEEE ICC Workshop · 2026</p>
-
-### SemiRoot: A Semi-Supervised Deep Learning Framework for Root-Cause Analysis of QoE Degradations in Mobile Networks
-
-Qizhe Li, **Haolong Chen**, Siliang Fu, Ziheng Zou, Guangxu Zhu
-{: .authors }
-</div>
-</article>
-
-<article class="publication">
-<div class="publication-content" markdown="1">
-<p class="venue">Science China Information Sciences · 2026</p>
-
-### An Overview of Domain-Specific Foundation Models: Key Technologies, Applications and Challenges
-
-**Haolong Chen**, Hanzhi Chen, Zijian Zhao, Kaifeng Han, Guangxu Zhu, Yichen Zhao, Ying Du, Wei Xu, Qingjiang Shi
-{: .authors }
-
-[Publisher](https://link.springer.com/article/10.1007/s11432-025-4498-2)
-{: .publication-links }
-</div>
-</article>
-
+{% endfor %}
 </section>
 
 <section id="patents" markdown="1">
@@ -222,43 +95,14 @@ Qizhe Li, **Haolong Chen**, Siliang Fu, Ziheng Zou, Guangxu Zhu
 ## Patents
 {: .section-heading }
 
+{% assign patents = site.patents | sort: "date" | reverse %}
 <ol class="patent-list">
+{% for patent in patents %}
   <li>
-    <strong>基于大模型智能体的数据查询方法、装置、设备及介质</strong>
-    <span class="patent-meta"><b>陈浩泷</b>，朱光旭，张亮，李卓 · CN122470645A · 授权日：2026年7月28日</span>
+    <strong>{{ patent.title }}</strong>
+    <span class="patent-meta">{{ patent.authors }} · {{ patent.patent_number }}{% if patent.status %} · {{ patent.status }}{% endif %}</span>
   </li>
-  <li>
-    <strong>通信网络数据异常根因推理方法、装置、设备和存储介质</strong>
-    <span class="patent-meta">李启喆，朱光旭，<b>陈浩泷</b>，胡志威，史清江 · CN122137729A</span>
-  </li>
-  <li>
-    <strong>基于误差感知的多模型调度方法、装置、设备及存储介质</strong>
-    <span class="patent-meta"><b>陈浩泷</b>，辛政沅，朱光旭，张亮 · CN121934985A · 授权日：2026年7月3日</span>
-  </li>
-  <li>
-    <strong>网络质差根因识别模型的训练方法、装置、设备及介质</strong>
-    <span class="patent-meta">李启喆，<b>陈浩泷</b>，李鉴晟，朱光旭，柴姝奇 · CN121357036A · 授权日：2026年3月24日</span>
-  </li>
-  <li>
-    <strong>无线通信中的流量预测方法、装置、电子设备及存储介质</strong>
-    <span class="patent-meta"><b>陈浩泷</b>，辛政沅，朱光旭 · CN120640333A · 授权日：2025年10月28日</span>
-  </li>
-  <li>
-    <strong>基于多模态大模型的通信指标预测方法以及相关设备</strong>
-    <span class="patent-meta"><b>陈浩泷</b>，朱光旭，史清江 · CN120090946A · 授权日：2025年10月17日</span>
-  </li>
-  <li>
-    <strong>模型训练方法、文本分类方法、装置、电子设备及介质</strong>
-    <span class="patent-meta">蔡智捷，<b>陈浩泷</b>，朱光旭，张纵辉，史清江 · CN119848556A · 授权日：2025年9月16日</span>
-  </li>
-  <li>
-    <strong>通信和内存高效的大模型分布式训练方法、文本分类方法</strong>
-    <span class="patent-meta">蔡智捷，<b>陈浩泷</b>，朱光旭 · CN119474891A · 授权日：2025年8月12日</span>
-  </li>
-  <li>
-    <strong>频谱效率的预测方法、装置、电子设备及存储介质</strong>
-    <span class="patent-meta"><b>陈浩泷</b>，朱光旭，史清江 · CN117279019A · 授权日：2024年2月23日</span>
-  </li>
+{% endfor %}
 </ol>
 
 </section>

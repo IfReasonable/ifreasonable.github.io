@@ -9,6 +9,12 @@ timezone: "Asia/Shanghai"
 markdown: kramdown
 permalink: pretty
 
+collections:
+  publications:
+    output: false
+  patents:
+    output: false
+
 sass:
   sass_dir: _sass
   style: compressed
@@ -33,9 +39,7 @@ exclude:
   - talkmap
   - _drafts
   - _pages
-  - _patents
   - _portfolio
   - _posts
-  - _publications
   - _talks
   - _teaching

@@ -1,12 +1,16 @@
 ---
 title: "FeedSign: Robust and Communication-Efficient Federated Fine-tuning of Large Models for Edge AI"
 collection: publications
-category: conferences
-permalink: /publication/2026-feedsign-2
-# excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2026-01-01
-venue: 'ICC 2026'
-# paperurl: ''
-# citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2026-01-02
+venue: "IEEE ICC"
+year: 2026
+authors: "Zhijie Cai, <strong>Haolong Chen</strong>, Guangxu Zhu, Qingjiang Shi, Kaibin Huang"
+summary:
+image:
+paperurl:
+arxivurl:
+pdfurl:
+codeurl:
+projecturl:
+bibtexurl:
 ---
-Zhijie Cai, **Haolong Chen**, Guangxu Zhu, Qingjiang Shi, Kaibin Huang

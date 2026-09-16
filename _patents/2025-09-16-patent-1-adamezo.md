@@ -1,6 +1,8 @@
 ---
 title: "模型训练方法、文本分类方法、装置、电子设备及介质"
-collection: Patents
-permalink: /patent/2025-09-16-patent-1-adamezo
+collection: patents
+date: 2025-09-16
+authors: "蔡智捷，<strong>陈浩泷</strong>，朱光旭，张纵辉，史清江"
+patent_number: "CN119848556A"
+status: "授权日：2025年9月16日"
 ---
-蔡智捷, **陈浩泷**, 朱光旭, 张纵辉, 史清江，深圳市大数据研究院，专利号：CN119848556A，授权日：2025年9月16日。

@@ -1,6 +1,8 @@
 ---
 title: "网络质差根因识别模型的训练方法、装置、设备及介质"
-collection: Patents
-permalink: /patent/2026-03-26-patent-1-dkroot
+collection: patents
+date: 2026-03-24
+authors: "李启喆，<strong>陈浩泷</strong>，李鉴晟，朱光旭，柴姝奇"
+patent_number: "CN121357036A"
+status: "授权日：2026年3月24日"
 ---
-李启喆, **陈浩泷**, 李鉴晟, 朱光旭, 柴姝奇，深圳市大数据研究院，专利号：CN121357036A，授权日：2026年3月24日。

@@ -1,12 +1,16 @@
 ---
 title: "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Order Optimization"
 collection: publications
-category: journals
-permalink: /publication/2026-feedsign-privacy
-# excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2026-01-01
-venue: 'under review'
-paperurl: 'https://arxiv.org/abs/2604.12401'
-# citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2026-04-01
+venue: "Preprint"
+year: 2026
+authors: "Zhijie Cai, Yuhao Zheng, <strong>Haolong Chen</strong>, Dongzhu Liu, Bin Wang, Guangxu Zhu"
+summary:
+image:
+paperurl:
+arxivurl: "https://arxiv.org/abs/2604.12401"
+pdfurl:
+codeurl:
+projecturl:
+bibtexurl:
 ---
-Zhijie Cai, Yuhao Zheng, **Haolong Chen**, Dongzhu Liu, Bin Wang, Guangxu Zhu

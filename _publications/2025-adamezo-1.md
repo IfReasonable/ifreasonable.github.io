@@ -1,13 +1,16 @@
 ---
-title: "AdaMeZO: Adam-Styled Zeroth-Order Optimizer for LLM Fine-tuning Without Memorizing the Moments"
+title: "AdaMeZO: Adam-style Zeroth-Order Optimizer for LLM Fine-tuning Without Maintaining the Moments"
 collection: publications
-category: conferences
-permalink: /publication/2025-adamezo-1
-# excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2025-10-1
-venue: 'ICML 2026'
-# paperurl: ''
-# citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2026-05-01
+venue: "ICML"
+year: 2026
+authors: "Zhijie Cai*, <strong>Haolong Chen</strong>*, Guangxu Zhu"
+summary:
+image:
+paperurl:
+arxivurl: "https://arxiv.org/abs/2605.00650"
+pdfurl:
+codeurl:
+projecturl:
+bibtexurl:
 ---
-Zhijie Cai *, **Haolong Chen** *, Guangxu Zhu
-

@@ -1,12 +1,16 @@
 ---
 title: "SemiRoot: A Semi-Supervised Deep Learning Framework for Root-Cause Analysis of QoE Degradations in Mobile Networks"
 collection: publications
-category: conferences
-permalink: /publication/2026-semi-root-1
-# excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2026-01-01
-venue: 'ICC 2026 Workshop'
-# paperurl: ''
-# citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+venue: "IEEE ICC Workshop"
+year: 2026
+authors: "Qizhe Li, <strong>Haolong Chen</strong>, Siliang Fu, Ziheng Zou, Guangxu Zhu"
+summary:
+image:
+paperurl:
+arxivurl:
+pdfurl:
+codeurl:
+projecturl:
+bibtexurl:
 ---
-Qizhe Li, **Haolong Chen**, Siliang Fu, Ziheng Zou, Guangxu Zhu
