@@ -7,7 +7,7 @@ venue: "IEEE Transactions on Mobile Computing"
 year: 2026
 authors: "Zhijie Cai*, <strong>Haolong Chen</strong>*, Guangxu Zhu, Qingjiang Shi, Kaibin Huang"
 summary:
-image:
+image: "/images/publications/feedsign.png"
 paperurl: "https://ieeexplore.ieee.org/document/11455968"
 arxivurl: "https://arxiv.org/abs/2501.17610"
 pdfurl:
