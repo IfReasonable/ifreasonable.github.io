@@ -7,7 +7,7 @@ year: 2026
 authors: "Zhijie Cai, <strong>Haolong Chen</strong>, Guangxu Zhu, Qingjiang Shi, Kaibin Huang"
 summary:
 image:
-paperurl:
+paperurl: "https://ieeexplore.ieee.org/abstract/document/11587130/"
 arxivurl:
 pdfurl:
 codeurl:

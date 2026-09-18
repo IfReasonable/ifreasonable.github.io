@@ -6,7 +6,7 @@ venue: "Preprint"
 year: 2026
 authors: "Qizhe Li*, <strong>Haolong Chen</strong>*, Shan Dai, Zhuo Li, Zhiwei Hu, Xuan Li, Guangxu Zhu, Qingjiang Shi"
 summary:
-image:
+image: "/images/publications/qoereasoner.png"
 paperurl:
 arxivurl: "https://arxiv.org/abs/2606.01925"
 pdfurl:

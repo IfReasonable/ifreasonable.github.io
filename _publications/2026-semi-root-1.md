@@ -7,7 +7,7 @@ year: 2026
 authors: "Qizhe Li, <strong>Haolong Chen</strong>, Siliang Fu, Ziheng Zou, Guangxu Zhu"
 summary:
 image:
-paperurl:
+paperurl: "https://ieeexplore.ieee.org/abstract/document/11586658"
 arxivurl:
 pdfurl:
 codeurl:

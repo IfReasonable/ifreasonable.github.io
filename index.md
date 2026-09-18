@@ -11,7 +11,7 @@ description: "Haolong Chen is a Ph.D. student at CUHK-Shenzhen researching self-
     <p class="profile-role">Ph.D. Student · LLM Agents &amp; Domain-Specific Intelligence</p>
     <p class="profile-links">
       <a href="mailto:haolongchen1@link.cuhk.edu.cn">Email</a>
-      <a href="https://scholar.google.com/citations?user=-fqFHUgAAAAJ&amp;hl=en">Google Scholar</a>
+      <a href="https://scholar.google.com/citations?user=-fqFHUgAAAAJ">Google Scholar</a>
       <a href="https://github.com/IfReasonable">GitHub</a>
       <a href="https://orcid.org/0009-0009-3138-8320">ORCID</a>
     </p>
@@ -30,7 +30,6 @@ My research lies at the intersection of LLM agents and domain-specific intellige
 
 - **Self-evolving agents:** enabling agents to improve their knowledge and behavior through interaction and feedback.
 - **Agent memory systems:** building adaptive, reliable mechanisms for storing and retrieving experience.
-- **Efficient large-model training:** reducing the communication, memory, and optimization costs of model adaptation.
 - **AI for communication networks:** applying foundation models and agentic reasoning to network diagnosis and optimization.
 {: .interests }
 
@@ -45,13 +44,13 @@ I am always open to research collaborations and discussions.
 
 - <span class="news-date">Aug. 2026</span> — [ERSkill: Evolving for Skill-Guided Adaptive Memory Retrieval](https://arxiv.org/abs/2608.12720) is now available on arXiv.
 - <span class="news-date">Aug. 2026</span> — [Error-Aware Reverse Auction Mechanism for Large Language Model Routing](https://arxiv.org/abs/2608.12719) is now available on arXiv.
-- <span class="news-date">Jun. 2026</span> — DK-Root was accepted by **IEEE Transactions on Networking**.
+- <span class="news-date">Jun. 2026</span> — [DK-Root](https://ieeexplore.ieee.org/abstract/document/11573069) was accepted by **IEEE Transactions on Networking**.
 - <span class="news-date">Jun. 2026</span> — [QoEReasoner](https://arxiv.org/abs/2606.01925) is now available on arXiv.
-- <span class="news-date">May 2026</span> — STM3 was accepted by **SIGKDD 2026**.
-- <span class="news-date">May 2026</span> — AdaMeZO was accepted by **ICML 2026**.
+- <span class="news-date">May 2026</span> — [STM3](https://dl.acm.org/doi/abs/10.1145/3770855.3817653) was accepted by **SIGKDD 2026**.
+- <span class="news-date">May 2026</span> — [AdaMeZO](https://icml.cc/virtual/2026/poster/63417) was accepted by **ICML 2026**.
 - <span class="news-date">Apr. 2026</span> — [Three Birds, One Stone](https://arxiv.org/abs/2604.12401) is now available on arXiv.
-- <span class="news-date">Mar. 2026</span> — FeedSign was accepted by **IEEE Transactions on Mobile Computing**.
-- <span class="news-date">Jun. 2025</span> — An Overview of Domain-Specific Foundation Models was accepted by **Science China Information Sciences**.
+- <span class="news-date">Mar. 2026</span> — [FeedSign](https://ieeexplore.ieee.org/document/11455968) was accepted by **IEEE Transactions on Mobile Computing**.
+- <span class="news-date">Jun. 2025</span> — [An Overview of Domain-Specific Foundation Models](https://link.springer.com/article/10.1007/s11432-025-4498-2) was accepted by **Science China Information Sciences**.
 {: .news-list }
 
 </section>

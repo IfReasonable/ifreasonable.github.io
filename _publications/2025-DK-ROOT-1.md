@@ -6,8 +6,8 @@ venue: "IEEE Transactions on Networking"
 year: 2026
 authors: "Qizhe Li, <strong>Haolong Chen</strong>, Jiansheng Li, Shuqi Chai, Xuan Li, Yuzhou Hou, Xinhua Shao, Fangfang Li, Kaifeng Han, Guangxu Zhu"
 summary:
-image:
-paperurl:
+image: "/images/publications/dkroot.png"
+paperurl: "https://ieeexplore.ieee.org/abstract/document/11573069"
 arxivurl: "https://arxiv.org/abs/2511.11737"
 pdfurl:
 codeurl:
