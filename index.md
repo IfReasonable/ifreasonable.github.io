@@ -7,7 +7,7 @@ description: "Haolong Chen is a Ph.D. student at CUHK-Shenzhen researching self-
 <section id="top" class="profile">
   <img class="profile-photo" src="/images/my_avatar.jpg" alt="Portrait">
   <div>
-    <h1>Haolong Chen</h1>
+    <h1>Haolong Chen · 陈 浩泷</h1>
     <p class="profile-role">Ph.D. Student · LLM Agents &amp; Domain-Specific Intelligence</p>
     <p class="profile-links">
       <a href="mailto:haolongchen1@link.cuhk.edu.cn">Email</a>

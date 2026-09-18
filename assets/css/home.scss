@@ -287,6 +287,52 @@ a:hover { text-decoration-thickness: 0.13em; }
   background: var(--surface);
 }
 
+.publication-image-button {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0.6rem;
+  background: transparent;
+  cursor: zoom-in;
+}
+
+.publication-image-button:hover .featured-publication-image {
+  border-color: #9bbcf5;
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.publication-image-button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 0.25rem;
+}
+
+.image-lightbox {
+  max-width: none;
+  max-height: none;
+  margin: auto;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-out;
+}
+
+.image-lightbox::backdrop {
+  background: rgba(12, 18, 28, 0.82);
+  backdrop-filter: blur(3px);
+}
+
+.image-lightbox img {
+  display: block;
+  max-width: min(94vw, 1500px);
+  max-height: 90vh;
+  border-radius: 0.5rem;
+  object-fit: contain;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.35);
+}
+
 .featured-publication h3,
 .compact-publication h3 {
   margin: 0 0 0.5rem;
@@ -574,6 +620,7 @@ a:hover { text-decoration-thickness: 0.13em; }
 
   .featured-publication .publication-number,
   .featured-publication-image,
+  .publication-image-button,
   .featured-publication .publication-content {
     grid-column: 1;
     min-width: 0;

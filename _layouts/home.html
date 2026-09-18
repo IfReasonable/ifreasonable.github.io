@@ -29,8 +29,12 @@
     <main id="content" class="page" tabindex="-1">
       {{ content }}
     </main>
+    <dialog id="publication-lightbox" class="image-lightbox" aria-label="Enlarged publication figure">
+      <img src="" alt="">
+    </dialog>
     <footer class="site-footer">
       <p>&copy; {{ 'now' | date: '%Y' }} Haolong Chen. Built with Markdown and GitHub Pages.</p>
     </footer>
+    <script src="{{ '/assets/js/home.js' | relative_url }}" defer></script>
   </body>
 </html>
