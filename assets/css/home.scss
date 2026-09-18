@@ -447,8 +447,24 @@ a:hover { text-decoration-thickness: 0.13em; }
 }
 
 .patent-list li {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  gap: 1.25rem;
   padding: 1rem 0;
   border-bottom: 1px solid var(--line);
+}
+
+.patent-number {
+  padding-top: 0.08rem;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 750;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.06em;
+}
+
+.patent-content {
+  min-width: 0;
 }
 
 .patent-title {

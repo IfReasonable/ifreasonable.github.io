@@ -44,13 +44,13 @@ I am always open to research collaborations and discussions.
 
 - <span class="news-date">Aug. 2026</span> — [ERSkill: Evolving for Skill-Guided Adaptive Memory Retrieval](https://arxiv.org/abs/2608.12720) is now available on arXiv.
 - <span class="news-date">Aug. 2026</span> — [Error-Aware Reverse Auction Mechanism for Large Language Model Routing](https://arxiv.org/abs/2608.12719) is now available on arXiv.
-- <span class="news-date">Jun. 2026</span> — [DK-Root](https://ieeexplore.ieee.org/abstract/document/11573069) was accepted by **IEEE Transactions on Networking**.
+- <span class="news-date">Jun. 2026</span> — 🎉 [DK-Root](https://ieeexplore.ieee.org/abstract/document/11573069) was accepted by **IEEE Transactions on Networking**.
 - <span class="news-date">Jun. 2026</span> — [QoEReasoner](https://arxiv.org/abs/2606.01925) is now available on arXiv.
-- <span class="news-date">May 2026</span> — [STM3](https://dl.acm.org/doi/abs/10.1145/3770855.3817653) was accepted by **SIGKDD 2026**.
-- <span class="news-date">May 2026</span> — [AdaMeZO](https://icml.cc/virtual/2026/poster/63417) was accepted by **ICML 2026**.
+- <span class="news-date">May 2026</span> — 🎉 [STM3](https://dl.acm.org/doi/abs/10.1145/3770855.3817653) was accepted by **SIGKDD 2026**.
+- <span class="news-date">May 2026</span> — 🎉 [AdaMeZO](https://icml.cc/virtual/2026/poster/63417) was accepted by **ICML 2026**.
 - <span class="news-date">Apr. 2026</span> — [Three Birds, One Stone](https://arxiv.org/abs/2604.12401) is now available on arXiv.
-- <span class="news-date">Mar. 2026</span> — [FeedSign](https://ieeexplore.ieee.org/document/11455968) was accepted by **IEEE Transactions on Mobile Computing**.
-- <span class="news-date">Jun. 2025</span> — [An Overview of Domain-Specific Foundation Models](https://link.springer.com/article/10.1007/s11432-025-4498-2) was accepted by **Science China Information Sciences**.
+- <span class="news-date">Mar. 2026</span> — 🎉 [FeedSign](https://ieeexplore.ieee.org/document/11455968) was accepted by **IEEE Transactions on Mobile Computing**.
+- <span class="news-date">Jun. 2025</span> — 🎉 [An Overview of Domain-Specific Foundation Models](https://link.springer.com/article/10.1007/s11432-025-4498-2) was accepted by **Science China Information Sciences**.
 {: .news-list }
 
 </section>
@@ -78,6 +78,7 @@ I am always open to research collaborations and discussions.
 </div>
 
 <div class="publication-groups">
+{% assign publication_number = 0 %}
 {% for theme in site.data.publication_groups.themes %}
   <details class="publication-group"{% if forloop.first %} open{% endif %}>
     <summary>
@@ -90,7 +91,8 @@ I am always open to research collaborations and discussions.
       {% assign matches = site.publications | where: "publication_id", publication_id %}
       {% assign publication = matches | first %}
       {% if publication %}
-        {% include compact-publication.html publication=publication index=forloop.index %}
+        {% assign publication_number = publication_number | plus: 1 %}
+        {% include compact-publication.html publication=publication index=publication_number %}
       {% endif %}
     {% endfor %}
     </div>
@@ -134,8 +136,11 @@ I am always open to research collaborations and discussions.
 <ol class="patent-list">
 {% for patent in patents %}
   <li>
-    <span class="patent-title">{{ patent.title }}</span>
-    <span class="patent-meta">{{ patent.authors }} · {{ patent.patent_number }}{% if patent.status %} · {{ patent.status }}{% endif %}</span>
+    <span class="patent-number" aria-hidden="true">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+    <div class="patent-content">
+      <span class="patent-title">{{ patent.title }}</span>
+      <span class="patent-meta">{{ patent.authors }} · {{ patent.patent_number }}{% if patent.status %} · {{ patent.status }}{% endif %}</span>
+    </div>
   </li>
 {% endfor %}
 </ol>
