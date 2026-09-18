@@ -1,0 +1,43 @@
+# This file controls publication selection, grouping, and display order.
+# Each value must match `publication_id` in a file under `_publications/`.
+
+featured:
+  - stm3
+  - domain-foundation-models
+  - adamezo
+  - qoe-reasoner
+  - dk-root
+
+themes:
+  - name: "Agent Harness -- Memory, Self-Evolution, ..."
+    description: ""
+    publications:
+      - erskill
+      - earam
+      - e3mem
+      - auditweaver
+
+  - name: "LLM Post-Training"
+    description: ""
+    publications:
+      - adamezo
+      - feedsign-tmc
+      - three-birds-one-stone
+      - feedsign-icc
+
+  - name: "Domain-Specific Data Mining & Reasoning"
+    description: ""
+    publications:
+      - qoe-reasoner
+      - stm3
+      - domain-foundation-models
+      - teleda
+      - dk-root
+      - semi-root
+      - unikpi
+      - domain-foundation-models-small
+
+  # - name: "Other Publications"
+  #   description: ""
+  #   publications:
+      # - domain-foundation-models

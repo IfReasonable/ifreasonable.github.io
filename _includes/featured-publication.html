@@ -1,0 +1,15 @@
+{% assign publication = include.publication %}
+<article class="featured-publication{% if publication.image %} with-image{% endif %}">
+  <span class="publication-number" aria-hidden="true">{% if include.index < 10 %}0{% endif %}{{ include.index }}</span>
+  {% if publication.image %}
+  <img class="featured-publication-image" src="{{ publication.image | relative_url }}" alt="Overview of {{ publication.title | escape }}">
+  {% endif %}
+  <div class="publication-content">
+    <p class="venue">{{ publication.venue }}{% if publication.year %} · {{ publication.year }}{% endif %}</p>
+    <h3>{{ publication.title }}</h3>
+    <p class="authors">{{ publication.authors }}</p>
+    {% if publication.summary %}<p class="publication-summary">{{ publication.summary }}</p>{% endif %}
+    {% include publication-links.html publication=publication %}
+  </div>
+</article>
+

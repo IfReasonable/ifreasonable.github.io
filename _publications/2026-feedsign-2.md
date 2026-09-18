@@ -1,6 +1,7 @@
 ---
 title: "FeedSign: Robust and Communication-Efficient Federated Fine-tuning of Large Models for Edge AI"
 collection: publications
+publication_id: "feedsign-icc"
 date: 2026-01-02
 venue: "IEEE ICC"
 year: 2026

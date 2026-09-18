@@ -1,6 +1,7 @@
 ---
 title: "QoEReasoner: An Agentic Reasoning Framework for Automated and Explainable QoE Diagnosis in RANs"
 collection: publications
+publication_id: "qoe-reasoner"
 date: 2026-06-12
 venue: "Preprint"
 year: 2026

@@ -57,36 +57,72 @@ I am always open to research collaborations and discussions.
 
 <section id="publications" markdown="1">
 
-## Publications
+## Featured Publications
 {: .section-heading }
 
-<!-- Publications are maintained as individual Markdown files in _publications/. -->
-{% assign publications = site.publications | sort: "date" | reverse %}
-{% for publication in publications %}
-<article class="publication{% if publication.image %} with-image{% endif %}">
-{% if publication.image %}
-<img class="publication-image" src="{{ publication.image | relative_url }}" alt="Overview of {{ publication.title | escape }}">
-{% endif %}
-<div class="publication-content">
-<p class="venue">{{ publication.venue }}{% if publication.year %} · {{ publication.year }}{% endif %}</p>
-<h3>{{ publication.title }}</h3>
-<p class="authors">{{ publication.authors }}</p>
-{% if publication.summary %}
-<p class="publication-summary">{{ publication.summary }}</p>
-{% endif %}
-{% if publication.paperurl or publication.arxivurl or publication.pdfurl or publication.codeurl or publication.projecturl or publication.bibtexurl %}
-<p class="publication-links">
-  {% if publication.paperurl %}<a href="{{ publication.paperurl }}">Paper</a>{% endif %}
-  {% if publication.arxivurl %}<a href="{{ publication.arxivurl }}">arXiv</a>{% endif %}
-  {% if publication.pdfurl %}<a href="{{ publication.pdfurl }}">PDF</a>{% endif %}
-  {% if publication.codeurl %}<a href="{{ publication.codeurl }}">Code</a>{% endif %}
-  {% if publication.projecturl %}<a href="{{ publication.projecturl }}">Project</a>{% endif %}
-  {% if publication.bibtexurl %}<a href="{{ publication.bibtexurl }}">BibTeX</a>{% endif %}
-</p>
-{% endif %}
-</div>
-</article>
+<p class="publication-note">Representative work across my current research directions. * denotes equal contribution.</p>
+
+<div class="featured-publications">
+{% for publication_id in site.data.publication_groups.featured %}
+  {% assign matches = site.publications | where: "publication_id", publication_id %}
+  {% assign publication = matches | first %}
+  {% if publication %}
+    {% include featured-publication.html publication=publication index=forloop.index %}
+  {% endif %}
 {% endfor %}
+</div>
+
+<div class="all-publications-heading">
+  <h2>Full Publications</h2>
+  <p>Grouped by research theme</p>
+</div>
+
+<div class="publication-groups">
+{% for theme in site.data.publication_groups.themes %}
+  <details class="publication-group"{% if forloop.first %} open{% endif %}>
+    <summary>
+      <span>{{ theme.name }}</span>
+      <span class="publication-group-toggle" aria-hidden="true"></span>
+    </summary>
+    {% if theme.description %}<p class="publication-group-description">{{ theme.description }}</p>{% endif %}
+    <div class="compact-publications">
+    {% for publication_id in theme.publications %}
+      {% assign matches = site.publications | where: "publication_id", publication_id %}
+      {% assign publication = matches | first %}
+      {% if publication %}
+        {% include compact-publication.html publication=publication index=forloop.index %}
+      {% endif %}
+    {% endfor %}
+    </div>
+  </details>
+{% endfor %}
+</div>
+</section>
+
+<section id="experience" markdown="1">
+
+## Experience
+{: .section-heading }
+
+<div class="experience-list">
+  <article class="experience-item">
+    <div class="experience-date">May 2026 – Present</div>
+    <div class="experience-content">
+      <h3>Meituan</h3>
+      <p class="experience-role">Algorithm Engineer Intern · Interaction Safety</p>
+      <p>Research focus: agent safety and guardrails, and agent self-evolution.</p>
+    </div>
+  </article>
+
+  <article class="experience-item">
+    <div class="experience-date">May 2023 – Present</div>
+    <div class="experience-content">
+      <h3>Shenzhen Research Institute of Big Data</h3>
+      <p class="experience-role">Research Assistant</p>
+    </div>
+  </article>
+</div>
+
 </section>
 
 <section id="patents" markdown="1">

@@ -1,6 +1,7 @@
 ---
 title: "ERSkill: Evolving for Skill-Guided Adaptive Memory Retrieval"
 collection: publications
+publication_id: "erskill"
 date: 2026-08-14
 venue: "Preprint"
 year: 2026

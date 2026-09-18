@@ -1,6 +1,7 @@
 ---
 title: "DK-Root: A Joint Data-and-Knowledge-Driven Framework for Root Cause Analysis of QoE Degradations in Mobile Networks"
 collection: publications
+publication_id: "dk-root"
 date: 2026-06-12
 venue: "IEEE Transactions on Networking"
 year: 2026

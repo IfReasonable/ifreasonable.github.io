@@ -1,6 +1,7 @@
 ---
 title: "Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Order Optimization"
 collection: publications
+publication_id: "three-birds-one-stone"
 date: 2026-04-01
 venue: "Preprint"
 year: 2026

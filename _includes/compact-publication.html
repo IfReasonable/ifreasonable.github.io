@@ -1,0 +1,11 @@
+{% assign publication = include.publication %}
+<article class="compact-publication">
+  <span class="publication-number" aria-hidden="true">{% if include.index < 10 %}0{% endif %}{{ include.index }}</span>
+  <div class="publication-content">
+    <h3>{{ publication.title }}</h3>
+    <p class="authors">{{ publication.authors }}</p>
+    <p class="compact-publication-meta">{{ publication.venue }}{% if publication.year %} · {{ publication.year }}{% endif %}</p>
+    {% include publication-links.html publication=publication %}
+  </div>
+</article>
+

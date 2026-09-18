@@ -1,6 +1,7 @@
 ---
 title: "SemiRoot: A Semi-Supervised Deep Learning Framework for Root-Cause Analysis of QoE Degradations in Mobile Networks"
 collection: publications
+publication_id: "semi-root"
 date: 2026-01-01
 venue: "IEEE ICC Workshop"
 year: 2026

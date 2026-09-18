@@ -1,0 +1,12 @@
+{% assign publication = include.publication %}
+{% if publication.paperurl or publication.arxivurl or publication.pdfurl or publication.codeurl or publication.projecturl or publication.bibtexurl %}
+<p class="publication-links">
+  {% if publication.paperurl %}<a href="{{ publication.paperurl }}">Paper</a>{% endif %}
+  {% if publication.arxivurl %}<a href="{{ publication.arxivurl }}">arXiv</a>{% endif %}
+  {% if publication.pdfurl %}<a href="{{ publication.pdfurl }}">PDF</a>{% endif %}
+  {% if publication.codeurl %}<a href="{{ publication.codeurl }}">Code</a>{% endif %}
+  {% if publication.projecturl %}<a href="{{ publication.projecturl }}">Project</a>{% endif %}
+  {% if publication.bibtexurl %}<a href="{{ publication.bibtexurl }}">BibTeX</a>{% endif %}
+</p>
+{% endif %}
+

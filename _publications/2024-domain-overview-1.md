@@ -1,6 +1,7 @@
 ---
 title: "An Overview of Domain-Specific Foundation Models: Key Technologies, Applications and Challenges"
 collection: publications
+publication_id: "domain-foundation-models"
 date: 2026-01-15
 venue: "Science China Information Sciences"
 year: 2026

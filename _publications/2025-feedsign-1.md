@@ -1,6 +1,7 @@
 ---
 title: "FeedSign: Robust Full-parameter Federated Fine-tuning of Large Models with Extremely Low Communication Overhead of One Bit"
 collection: publications
+publication_id: "feedsign-tmc"
 date: 2026-03-01
 venue: "IEEE Transactions on Mobile Computing"
 year: 2026

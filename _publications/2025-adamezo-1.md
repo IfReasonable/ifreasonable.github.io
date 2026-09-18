@@ -1,6 +1,7 @@
 ---
 title: "AdaMeZO: Adam-style Zeroth-Order Optimizer for LLM Fine-tuning Without Maintaining the Moments"
 collection: publications
+publication_id: "adamezo"
 date: 2026-05-01
 venue: "ICML"
 year: 2026
