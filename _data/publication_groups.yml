@@ -14,8 +14,8 @@ themes:
     publications:
       - erskill
       - earam
-      - e3mem
       - auditweaver
+      - e3mem
 
   - name: "LLM Post-Training"
     description: ""

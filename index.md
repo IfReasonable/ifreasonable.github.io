@@ -59,7 +59,7 @@ I am always open to research collaborations and discussions.
 
 ## Featured Publications
 
-<p class="publication-note">Representative work across my current research directions. * denotes equal contribution.</p>
+<p class="publication-note">* Equal contribution.</p>
 
 <div class="featured-publications">
 {% for publication_id in site.data.publication_groups.featured %}
