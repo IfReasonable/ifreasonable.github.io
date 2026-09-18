@@ -36,6 +36,7 @@ themes:
       - semi-root
       - unikpi
       - domain-foundation-models-small
+      - telerag
 
   # - name: "Other Publications"
   #   description: ""

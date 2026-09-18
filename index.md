@@ -162,7 +162,7 @@ I am always open to research collaborations and discussions.
 
 <div class="service-note">
   <h3>Academic Service</h3>
-  <p>Reviewer for ICASSP, WCNC, ICC, GLOBECOM, ICCC, PIMRC, and IEEE Transactions on Mobile Computing.</p>
+  <p>Reviewer for IEEE Transactions on Mobile Computing, ICASSP, WCNC, ICC, GLOBECOM, ICCC, PIMRC.</p>
 </div>
 
 </section>
