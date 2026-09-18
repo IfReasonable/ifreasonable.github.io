@@ -109,7 +109,7 @@ I am always open to research collaborations and discussions.
     <div class="experience-date">May 2026 – Present</div>
     <div class="experience-content">
       <h3>Meituan</h3>
-      <p class="experience-role">Algorithm Engineer Intern · Interaction Safety · Mentor: [Jianyu Wen](https://scholar.google.com/citations?user=G_GK93sAAAAJ)</p>
+      <p class="experience-role">Algorithm Engineer Intern · Interaction Safety · Mentor: <a href="https://scholar.google.com/citations?user=G_GK93sAAAAJ">Jianyu Wen</a></p>
       <p>Research focus: agent safety and guardrails, and agent self-evolution.</p>
     </div>
   </article>
