@@ -58,7 +58,6 @@ I am always open to research collaborations and discussions.
 <section id="publications" markdown="1">
 
 ## Featured Publications
-{: .section-heading }
 
 <p class="publication-note">Representative work across my current research directions. * denotes equal contribution.</p>
 
@@ -104,14 +103,13 @@ I am always open to research collaborations and discussions.
 <section id="experience" markdown="1">
 
 ## Experience
-{: .section-heading }
 
 <div class="experience-list">
   <article class="experience-item">
     <div class="experience-date">May 2026 – Present</div>
     <div class="experience-content">
       <h3>Meituan</h3>
-      <p class="experience-role">Algorithm Engineer Intern · Interaction Safety</p>
+      <p class="experience-role">Algorithm Engineer Intern · Interaction Safety · Mentor: [Jianyu Wen](https://scholar.google.com/citations?user=G_GK93sAAAAJ)</p>
       <p>Research focus: agent safety and guardrails, and agent self-evolution.</p>
     </div>
   </article>
