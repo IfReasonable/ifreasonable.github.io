@@ -256,10 +256,15 @@ a:hover { text-decoration-thickness: 0.13em; }
   border-bottom: 1px solid var(--line);
 }
 
-.patent-list strong {
+.patent-title {
   display: block;
   margin-bottom: 0.15rem;
+  font-weight: 700;
   line-height: 1.45;
+}
+
+.patent-meta strong {
+  display: inline;
 }
 
 .patent-meta {

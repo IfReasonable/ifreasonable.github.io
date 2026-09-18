@@ -98,7 +98,7 @@ I am always open to research collaborations and discussions.
 <ol class="patent-list">
 {% for patent in patents %}
   <li>
-    <strong>{{ patent.title }}</strong>
+    <span class="patent-title">{{ patent.title }}</span>
     <span class="patent-meta">{{ patent.authors }} · {{ patent.patent_number }}{% if patent.status %} · {{ patent.status }}{% endif %}</span>
   </li>
 {% endfor %}
