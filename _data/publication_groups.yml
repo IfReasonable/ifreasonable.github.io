@@ -12,31 +12,31 @@ themes:
   - name: "Agent Harness -- Memory, Self-Evolution, etc."
     description: ""
     publications:
-      - erskill
-      - earam
       - auditweaver
       - e3mem
+      - erskill
+      - earam
 
   - name: "LLM Post-Training"
     description: ""
     publications:
-      - adamezo
-      - feedsign-tmc
       - three-birds-one-stone
+      - adamezo
       - feedsign-icc
+      - feedsign-tmc
 
   - name: "Domain-Specific Data Mining & Reasoning"
     description: ""
     publications:
+      - teleda
+      - unikpi
       - qoe-reasoner
       - stm3
-      - domain-foundation-models
-      - teleda
-      - dk-root
       - semi-root
-      - unikpi
-      - domain-foundation-models-small
+      - dk-root
+      - domain-foundation-models
       - telerag
+      - domain-foundation-models-small
 
   # - name: "Other Publications"
   #   description: ""
