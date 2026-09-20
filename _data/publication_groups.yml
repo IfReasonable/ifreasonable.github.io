@@ -9,7 +9,7 @@ featured:
   - dk-root
 
 themes:
-  - name: "Agent Harness -- Memory, Self-Evolution, etc."
+  - name: "Agent Harness -- Memory, Self-Evolution, Routing, etc."
     description: ""
     publications:
       - auditweaver
