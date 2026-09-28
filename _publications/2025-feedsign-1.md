@@ -3,7 +3,7 @@ title: "FeedSign: Robust Full-parameter Federated Fine-tuning of Large Models wi
 collection: publications
 publication_id: "feedsign-tmc"
 date: 2026-03-01
-venue: "IEEE Transactions on Mobile Computing"
+venue: "IEEE Transactions on Mobile Computing (CCF-A)"
 year: 2026
 authors: "Zhijie Cai*, <strong>Haolong Chen</strong>*, Guangxu Zhu, Qingjiang Shi, Kaibin Huang"
 summary:

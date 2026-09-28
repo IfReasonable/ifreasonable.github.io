@@ -3,7 +3,7 @@ title: "SemiRoot: A Semi-Supervised Deep Learning Framework for Root-Cause Analy
 collection: publications
 publication_id: "semi-root"
 date: 2026-01-01
-venue: "IEEE ICC Workshop"
+venue: "IEEE ICC (CCF-C) Workshop"
 year: 2026
 authors: "Qizhe Li, <strong>Haolong Chen</strong>, Siliang Fu, Ziheng Zou, Guangxu Zhu"
 summary:

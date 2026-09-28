@@ -3,7 +3,7 @@ title: "AdaMeZO: Adam-style Zeroth-Order Optimizer for LLM Fine-tuning Without M
 collection: publications
 publication_id: "adamezo"
 date: 2026-05-01
-venue: "ICML"
+venue: "ICML (CCF-A)"
 year: 2026
 authors: "Zhijie Cai*, <strong>Haolong Chen</strong>*, Guangxu Zhu"
 summary:

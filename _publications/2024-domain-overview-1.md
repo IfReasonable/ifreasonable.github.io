@@ -3,7 +3,7 @@ title: "An Overview of Domain-Specific Foundation Models: Key Technologies, Appl
 collection: publications
 publication_id: "domain-foundation-models"
 date: 2026-01-15
-venue: "Science China Information Sciences"
+venue: "Science China Information Sciences (CCF-A)"
 year: 2026
 authors: "<strong>Haolong Chen</strong>, Hanzhi Chen, Zijian Zhao, Kaifeng Han, Guangxu Zhu, Yichen Zhao, Ying Du, Wei Xu, Qingjiang Shi"
 summary:

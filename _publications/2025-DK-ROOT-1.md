@@ -3,7 +3,7 @@ title: "DK-Root: A Joint Data-and-Knowledge-Driven Framework for Root Cause Anal
 collection: publications
 publication_id: "dk-root"
 date: 2026-06-12
-venue: "IEEE Transactions on Networking"
+venue: "IEEE Transactions on Networking (CCF-A)"
 year: 2026
 authors: "Qizhe Li, <strong>Haolong Chen</strong>, Jiansheng Li, Shuqi Chai, Xuan Li, Yuzhou Hou, Xinhua Shao, Fangfang Li, Kaifeng Han, Guangxu Zhu"
 summary:
