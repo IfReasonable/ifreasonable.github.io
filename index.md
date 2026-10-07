@@ -109,7 +109,7 @@ I am always open to research collaborations and discussions.
     <div class="experience-date">May 2026 – Present</div>
     <div class="experience-content">
       <h3>Meituan</h3>
-      <p class="experience-role">Algorithm Engineer Intern · Interaction Intelligence · Mentor: <a href="https://scholar.google.com/citations?user=G_GK93sAAAAJ">Jianyu Wen</a></p>
+      <p class="experience-role">Intern · Foundational R&D Platform · Mentor: <a href="https://scholar.google.com/citations?user=G_GK93sAAAAJ">Jianyu Wen</a></p>
       <p>Research focus: agent guardrails / judges, and agent self-evolution.</p>
     </div>
   </article>
@@ -162,7 +162,7 @@ I am always open to research collaborations and discussions.
 
 <div class="service-note">
   <h3>Academic Service</h3>
-  <p>Reviewer for IEEE Transactions on Mobile Computing, ICASSP, WCNC, ICC, GLOBECOM, ICCC, PIMRC.</p>
+  <p>Reviewer for ICLR, IEEE Transactions on Mobile Computing, ICASSP, WCNC, ICC, GLOBECOM, ICCC, PIMRC.</p>
 </div>
 
 </section>
