@@ -4,6 +4,6 @@ collection: patents
 date: 2026-06-12
 authors: "李启喆，朱光旭，<strong>陈浩泷</strong>，胡志威，史清江"
 patent_number: "CN122137729A"
-status:
+status:  "授权日：2026年9月25日"
 ---
 
