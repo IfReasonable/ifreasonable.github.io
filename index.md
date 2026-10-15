@@ -33,7 +33,7 @@ My research lies at the intersection of LLM agents and domain-specific intellige
 - **AI for communication networks:** applying foundation models and agentic reasoning to network diagnosis and optimization.
 {: .interests }
 
-I am always open to research collaborations and discussions.
+I am interested in the end-to-end business logic of AI and how it creates value. I deeply enjoy working with my outstanding collaborators, and I look forward to joining forces with more people to build something bigger together.
 
 </section>
 
@@ -172,7 +172,7 @@ I am always open to research collaborations and discussions.
 ## Beyond Research
 {: .section-heading }
 
-I also enjoy arranging music and DJing.
+I also like to spend time arranging music and DJing.
 
 <h3 class="music-heading">Music Recommendations</h3>
 {% assign recommended_music = site.recommended_music | where_exp: "song", "song.published != false" | sort: "order" %}
