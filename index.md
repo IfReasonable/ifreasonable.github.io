@@ -134,11 +134,13 @@ I am interested in the end-to-end business logic of AI and how it creates value.
 {% assign thoughts = site.thoughts | where_exp: "thought", "thought.published != false" | where_exp: "thought", "thought.content != ''" | sort: "date" | reverse %}
 <div class="thought-list">
 {% assign shown_thoughts = '' %}
+{% assign thought_number = 0 %}
 {% for thought in thoughts %}
   {% assign thought_key = thought.translation_key | default: thought.url %}
   {% capture thought_marker %}|{{ thought_key }}|{% endcapture %}
   {% unless shown_thoughts contains thought_marker %}
     {% assign shown_thoughts = shown_thoughts | append: thought_marker %}
+    {% assign thought_number = thought_number | plus: 1 %}
     {% if thought.translation_key %}
       {% assign versions = thoughts | where: "translation_key", thought.translation_key %}
     {% else %}
@@ -153,9 +155,13 @@ I am interested in the end-to-end business logic of AI and how it creates value.
     </a>
     {% endif %}
     <div class="thought-card-content">
-      <h3><a href="{{ displayed_thought.url | relative_url }}">{{ displayed_thought.title | escape }}</a></h3>
-      {% if displayed_thought.summary and displayed_thought.summary != empty %}<p>{{ displayed_thought.summary | escape }}</p>{% endif %}
-      {% if displayed_thought.translation_key %}{% include thought-languages.html versions=versions %}{% endif %}
+      <div class="thought-card-meta">
+        <span class="thought-card-number" aria-label="Article {{ thought_number }}">{% if thought_number < 10 %}0{% endif %}{{ thought_number }}</span>
+        {% if displayed_thought.date %}<time datetime="{{ displayed_thought.date | date_to_xmlschema }}">{{ displayed_thought.date | date: '%Y.%m.%d' }}</time>{% endif %}
+      </div>
+      <h3>{{ displayed_thought.title | escape }}</h3>
+      {% if displayed_thought.summary and displayed_thought.summary != empty %}<p class="thought-card-summary">{{ displayed_thought.summary | escape }}</p>{% endif %}
+      {% include thought-languages.html versions=versions %}
     </div>
   </article>
   {% endunless %}
