@@ -166,3 +166,22 @@ I am always open to research collaborations and discussions.
 </div>
 
 </section>
+
+<section id="beyond-research" markdown="1">
+
+## Beyond Research
+{: .section-heading }
+
+I also enjoy arranging music and DJing.
+
+<h3 class="music-heading">Music Recommendations</h3>
+{% assign recommended_music = site.recommended_music | where_exp: "song", "song.published != false" | sort: "order" %}
+<div class="music-list">
+{% for song in recommended_music %}
+  {% include recommended-music.html song=song %}
+{% else %}
+  <p class="music-empty">Music picks coming soon.</p>
+{% endfor %}
+</div>
+
+</section>

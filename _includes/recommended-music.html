@@ -1,0 +1,17 @@
+{% assign song = include.song %}
+<article class="music-card">
+  {% if song.cover and song.cover != empty %}
+  <img class="music-cover" src="{{ song.cover | relative_url }}" alt="{{ song.album | default: song.title | escape }} album cover" loading="lazy" width="120" height="120">
+  {% else %}
+  <div class="music-cover music-cover-placeholder" aria-hidden="true">♪</div>
+  {% endif %}
+  <div class="music-content">
+    <h4>{% if song.listenurl and song.listenurl != empty %}<a href="{{ song.listenurl | escape }}">{{ song.title | escape }}</a>{% else %}{{ song.title | escape }}{% endif %}</h4>
+    <p class="music-artist">{{ song.artist | escape }}{% if song.album and song.album != empty %} · {{ song.album | escape }}{% endif %}</p>
+    {% if song.lyrics and song.lyrics != empty %}
+    <blockquote class="music-lyrics">{{ song.lyrics | escape | newline_to_br }}</blockquote>
+    {% endif %}
+    {% assign note = song.content | strip %}
+    {% if note != empty %}<div class="music-note">{{ song.content }}</div>{% endif %}
+  </div>
+</article>
