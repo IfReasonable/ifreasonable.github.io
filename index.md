@@ -42,6 +42,7 @@ I am interested in the end-to-end business logic of AI and how it creates value.
 ## News
 {: .section-heading }
 
+- <span class="news-date">Oct. 2026</span> — [any-jev](https://github.com/IfReasonable/any-jev), a lightweight tool for turning LLMs/VLMs into JEV-like decision models, is now available on GitHub.
 - <span class="news-date">Aug. 2026</span> — [ERSkill: Evolving for Skill-Guided Adaptive Memory Retrieval](https://arxiv.org/abs/2608.12720) is now available on arXiv.
 - <span class="news-date">Aug. 2026</span> — [Error-Aware Reverse Auction Mechanism for Large Language Model Routing](https://arxiv.org/abs/2608.12719) is now available on arXiv.
 - <span class="news-date">Jun. 2026</span> — 🎉 [DK-Root](https://ieeexplore.ieee.org/abstract/document/11573069) was accepted by **IEEE Transactions on Networking**.
