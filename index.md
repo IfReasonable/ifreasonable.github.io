@@ -45,13 +45,13 @@ I am interested in the end-to-end business logic of AI and how it creates value.
 - <span class="news-date">Oct. 2026</span> — [any-jev](https://github.com/IfReasonable/any-jev), a lightweight tool for turning LLMs/VLMs into JEV-like decision models, is now available on GitHub.
 - <span class="news-date">Aug. 2026</span> — [ERSkill: Evolving for Skill-Guided Adaptive Memory Retrieval](https://arxiv.org/abs/2608.12720) is now available on arXiv.
 - <span class="news-date">Aug. 2026</span> — [Error-Aware Reverse Auction Mechanism for Large Language Model Routing](https://arxiv.org/abs/2608.12719) is now available on arXiv.
-- <span class="news-date">Jun. 2026</span> — 🎉 [DK-Root](https://ieeexplore.ieee.org/abstract/document/11573069) was accepted by **IEEE Transactions on Networking**.
-- <span class="news-date">Jun. 2026</span> — [QoEReasoner](https://arxiv.org/abs/2606.01925) is now available on arXiv.
-- <span class="news-date">May 2026</span> — 🎉 [STM3](https://dl.acm.org/doi/abs/10.1145/3770855.3817653) was accepted by **SIGKDD 2026**.
-- <span class="news-date">May 2026</span> — 🎉 [AdaMeZO](https://icml.cc/virtual/2026/poster/63417) was accepted by **ICML 2026**.
-- <span class="news-date">Apr. 2026</span> — [Three Birds, One Stone](https://arxiv.org/abs/2604.12401) is now available on arXiv.
-- <span class="news-date">Mar. 2026</span> — 🎉 [FeedSign](https://ieeexplore.ieee.org/document/11455968) was accepted by **IEEE Transactions on Mobile Computing**.
-- <span class="news-date">Jun. 2025</span> — 🎉 [An Overview of Domain-Specific Foundation Models](https://link.springer.com/article/10.1007/s11432-025-4498-2) was accepted by **Science China Information Sciences**.
+- <span class="news-date">Jun. 2026</span> — 🎉 [DK-Root: A Joint Data-and-Knowledge-Driven Framework for Root Cause Analysis of QoE Degradations in Mobile Networks](https://ieeexplore.ieee.org/abstract/document/11573069) was accepted by **IEEE Transactions on Networking**.
+- <span class="news-date">Jun. 2026</span> — [QoEReasoner: An Agentic Reasoning Framework for Automated and Explainable QoE Diagnosis in RANs](https://arxiv.org/abs/2606.01925) is now available on arXiv.
+- <span class="news-date">May 2026</span> — 🎉 [STM3: Mixture of Multiscale Mamba for Long-Term Spatio-Temporal Time-Series Prediction](https://dl.acm.org/doi/abs/10.1145/3770855.3817653) was accepted by **SIGKDD 2026**.
+- <span class="news-date">May 2026</span> — 🎉 [AdaMeZO: Adam-style Zeroth-Order Optimizer for LLM Fine-tuning Without Maintaining the Moments](https://icml.cc/virtual/2026/poster/63417) was accepted by **ICML 2026**.
+- <span class="news-date">Apr. 2026</span> — [Three Birds, One Stone: Solving the Communication-Memory-Privacy Trilemma in LLM Fine-tuning Over Wireless Networks with Zeroth-Order Optimization](https://arxiv.org/abs/2604.12401) is now available on arXiv.
+- <span class="news-date">Mar. 2026</span> — 🎉 [FeedSign: Robust Full-parameter Federated Fine-tuning of Large Models with Extremely Low Communication Overhead of One Bit](https://ieeexplore.ieee.org/document/11455968) was accepted by **IEEE Transactions on Mobile Computing**.
+- <span class="news-date">Jun. 2025</span> — 🎉 [An Overview of Domain-Specific Foundation Models: Key Technologies, Applications and Challenges](https://link.springer.com/article/10.1007/s11432-025-4498-2) was accepted by **Science China Information Sciences**.
 {: .news-list }
 
 </section>
