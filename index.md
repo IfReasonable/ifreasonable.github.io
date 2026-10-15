@@ -8,7 +8,7 @@ description: "Haolong Chen is a Ph.D. student at CUHK-Shenzhen researching self-
   <img class="profile-photo" src="/images/my_avatar.jpg" alt="Portrait">
   <div>
     <h1>Haolong Chen · 陈 浩泷</h1>
-    <p class="profile-role">Ph.D. Student · LLM Agents &amp; Domain-Specific Intelligence</p>
+    <p class="profile-role">Ph.D. Candidate · Recursive Self-Improvement &amp; Agents &amp; Domain-Specific Intelligence</p>
     <p class="profile-links">
       <a href="mailto:haolongchen1@link.cuhk.edu.cn">Email</a>
       <a href="https://scholar.google.com/citations?user=-fqFHUgAAAAJ">Google Scholar</a>
@@ -23,7 +23,7 @@ description: "Haolong Chen is a Ph.D. student at CUHK-Shenzhen researching self-
 ## About Me
 {: .section-heading }
 
-I am currently pursuing my Ph.D. in Computer and Information Engineering at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en) under the supervision of [Prof. Guangxu Zhu](https://sites.google.com/view/guangxuzhu/home) and [Prof. Tsung-Hui Chang](https://myweb.cuhk.edu.cn/changtsunghui). I received my B.Eng. in Software Engineering from Jinan University in 2023.
+I am currently pursuing a Ph.D. in Computer and Information Engineering at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn/en), under the supervision of [Prof. Guangxu Zhu](https://sites.google.com/view/guangxuzhu/home) and [Prof. Tsung-Hui Chang](https://myweb.cuhk.edu.cn/changtsunghui). I received my B.Eng. in Software Engineering from Jinan University in 2023.
 {: .lede }
 
 My research lies at the intersection of LLM agents and domain-specific intelligence. I am particularly interested in:
@@ -224,6 +224,7 @@ I am interested in the end-to-end business logic of AI and how it creates value.
 I also like to spend time arranging music and DJing.
 
 <h3 class="music-heading">Music Recommendations</h3>
+<p class="music-tagline">Music so good, even a devil may cry.</p>
 {% assign recommended_music = site.recommended_music | where_exp: "song", "song.published != false" | sort: "order" %}
 <div class="music-list">
 {% for song in recommended_music %}
