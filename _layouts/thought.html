@@ -1,0 +1,21 @@
+---
+layout: home
+---
+<article class="thought-article">
+  <div class="thought-toolbar">
+    <a class="thought-back" href="{{ '/' | relative_url }}#thoughts">{% if page.lang == 'zh-CN' %}← 返回 Thoughts{% else %}← Back to Thoughts{% endif %}</a>
+    {% if page.translation_key %}
+      {% assign versions = site.thoughts | where: "translation_key", page.translation_key | where_exp: "thought", "thought.published != false" %}
+      {% include thought-languages.html versions=versions current_url=page.url %}
+    {% endif %}
+  </div>
+  <header class="thought-article-header">
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.date %}<time class="thought-date" datetime="{{ page.date | date_to_xmlschema }}">{% if page.lang == 'zh-CN' %}{{ page.date | date: '%Y年%-m月%-d日' }}{% else %}{{ page.date | date: '%B %-d, %Y' }}{% endif %}</time>{% endif %}
+    {% if page.summary and page.summary != empty %}<p class="thought-intro">{{ page.summary | escape }}</p>{% endif %}
+    {% if page.image and page.image != empty %}<img class="thought-hero" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}">{% endif %}
+  </header>
+  <div class="thought-prose">
+    {{ content }}
+  </div>
+</article>

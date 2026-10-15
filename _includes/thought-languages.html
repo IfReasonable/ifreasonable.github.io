@@ -1,0 +1,5 @@
+<nav class="thought-languages" aria-label="Article language">
+{% for version in include.versions %}
+  <a href="{{ version.url | relative_url }}" lang="{{ version.lang | default: 'en' | escape }}" hreflang="{{ version.lang | default: 'en' | escape }}"{% if version.url == include.current_url %} aria-current="page"{% endif %}>{% case version.lang %}{% when 'zh-CN' %}中文{% when 'en' %}English{% else %}{{ version.lang | default: 'Read' | escape }}{% endcase %}</a>
+{% endfor %}
+</nav>

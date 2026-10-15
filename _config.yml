@@ -16,6 +16,16 @@ collections:
     output: false
   recommended_music:
     output: false
+  thoughts:
+    output: true
+    permalink: /thoughts/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: thoughts
+    values:
+      layout: thought
 
 sass:
   sass_dir: _sass

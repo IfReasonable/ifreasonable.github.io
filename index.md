@@ -126,6 +126,46 @@ I am interested in the end-to-end business logic of AI and how it creates value.
 
 </section>
 
+<section id="thoughts" markdown="1">
+
+## Thoughts
+{: .section-heading }
+
+{% assign thoughts = site.thoughts | where_exp: "thought", "thought.published != false" | where_exp: "thought", "thought.content != ''" | sort: "date" | reverse %}
+<div class="thought-list">
+{% assign shown_thoughts = '' %}
+{% for thought in thoughts %}
+  {% assign thought_key = thought.translation_key | default: thought.url %}
+  {% capture thought_marker %}|{{ thought_key }}|{% endcapture %}
+  {% unless shown_thoughts contains thought_marker %}
+    {% assign shown_thoughts = shown_thoughts | append: thought_marker %}
+    {% if thought.translation_key %}
+      {% assign versions = thoughts | where: "translation_key", thought.translation_key %}
+    {% else %}
+      {% assign versions = thoughts | where: "url", thought.url %}
+    {% endif %}
+    {% assign english_version = versions | where: "lang", "en" | first %}
+    {% assign displayed_thought = english_version | default: thought %}
+  <article class="thought-card{% if displayed_thought.image and displayed_thought.image != empty %} with-image{% endif %}" lang="{{ displayed_thought.lang | default: site.lang | escape }}">
+    {% if displayed_thought.image and displayed_thought.image != empty %}
+    <a class="thought-cover-link" href="{{ displayed_thought.url | relative_url }}" aria-label="Read {{ displayed_thought.title | escape }}">
+      <img class="thought-cover" src="{{ displayed_thought.image | relative_url }}" alt="{{ displayed_thought.image_alt | default: displayed_thought.title | escape }}" loading="lazy" width="240" height="150">
+    </a>
+    {% endif %}
+    <div class="thought-card-content">
+      <h3><a href="{{ displayed_thought.url | relative_url }}">{{ displayed_thought.title | escape }}</a></h3>
+      {% if displayed_thought.summary and displayed_thought.summary != empty %}<p>{{ displayed_thought.summary | escape }}</p>{% endif %}
+      {% if displayed_thought.translation_key %}{% include thought-languages.html versions=versions %}{% endif %}
+    </div>
+  </article>
+  {% endunless %}
+{% else %}
+  <p class="thought-empty">Essays and reflections coming soon.</p>
+{% endfor %}
+</div>
+
+</section>
+
 <section id="patents" markdown="1">
 
 ## Patents
