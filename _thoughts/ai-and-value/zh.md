@@ -2,7 +2,7 @@
 published: true
 lang: zh-CN
 translation_key: ai-and-value
-permalink: /thoughts/ai_with_work_261015/
+permalink: /thoughts/ai-and-value/zh/
 title: "AI 时代的价值创造：从单点能力到端到端系统"
 date: 2026-10-15
 summary: "当 AI 降低专业能力的获取成本，个人与组织如何拓展价值链、识别新的瓶颈，并判断下一步值得投入什么？"
